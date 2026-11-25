@@ -1,0 +1,18 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+
+# Dependências (o projeto não usa, mas evita lixo acidental)
+node_modules/
+
+# Temporários
+*.tmp
+*.log
+
+# Formulário de trabalho privado; não enviar ao repositório público
+/CONTEUDO.md

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Página não encontrada — Rafael Borille</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0b0d0f">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/tokens.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="container header__inner">
+      <a class="logo" href="/"><span aria-hidden="true">RB</span><span class="visually-hidden">Início</span></a>
+      <a class="btn btn--ghost" href="/">Ir para o início</a>
+    </div>
+  </header>
+
+  <main class="container erro" id="conteudo">
+    <div>
+      <p class="erro__codigo">Erro 404</p>
+      <h1>Esta página não existe</h1>
+      <p>O endereço pode ter mudado ou o link está incompleto. Os projetos continuam na página inicial.</p>
+      <a class="btn btn--primary" href="/">Voltar ao início</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <p>© <span data-ano>2026</span> Rafael Borille</p>
+      <a href="/">Início</a>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll('[data-ano]').forEach(function (el) {
+      el.textContent = new Date().getFullYear();
+    });
+  </script>
+</body>
+</html>
